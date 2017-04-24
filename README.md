@@ -25,7 +25,7 @@ $ pod install
 
 3. Open `Pizzaiolo.xcworkspace` with Xcode.
 
-4. Run the Node.js server to fill the app with data, so you can test it in the simulator or device. Instructions on the [pizzaiolo-server repository](http://link-to-pizzaiolo-server-repo). 
+4. Run the Node.js server to fill the app with data, so you can test it in the simulator or device. Instructions on the [pizzaiolo-server repository](https://github.com/fadion/pizzaiolo-server). 
 
 ## Disclaimer
 
