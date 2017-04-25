@@ -1,6 +1,6 @@
 # Pizzaiolo iOS
 
-Pizzaiolo is a demo iOS app built with Swift 3 and Xcode 8. I've been occassionally working for iOS since late 2013, but have never invested that much to be able to experiment with techniques and architectural choices. This app gave me the liberty of doing so.
+Pizzaiolo is a demo iOS app built with Swift 3 and Xcode 8. I've been occassionally working for iOS since late 2013, but have never invested that much to be able to experiment with techniques and architectural choices. This app gave me the liberty of doing so. Even wrote my thoughts on the journey in [this article](https://medium.com/@fadion/my-journey-in-developing-an-ios-app-3e012d370f5c).
 
 ![pizzaiolo](https://cloud.githubusercontent.com/assets/374519/24907143/31461114-1ebb-11e7-995c-3ad6113cc6e5.gif)
 
