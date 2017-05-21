@@ -13,13 +13,13 @@ Opening the app in your own computer is pretty simple; it just needs a tiny bit 
 1. Clone the repository
 
 ```bash
-$ git clone [repo-name-placeholder]
+$ git clone git@github.com:fadion/pizzaiolo-ios.git
 ```
 
 2. Install dependencies. This may take a few minutes.
 
 ```bash
-$ cd path/to/project
+$ cd pizzaiolo-ios
 $ pod install
 ```
 
