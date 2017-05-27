@@ -23,7 +23,7 @@ class CategoryMapper {
     public func fromJSON() -> Observable<[CategoryViewModel]> {
         return Observable.create { observer in
             DispatchQueue(label: "com.pizzaiolo.mapper", qos: .utility).async {
-                if let json = JSON(self.data)["category"].array {
+                if let json = JSON(self.data).array {
                     let viewModels = json.map { item -> CategoryViewModel in
                         let model = Category()
                         

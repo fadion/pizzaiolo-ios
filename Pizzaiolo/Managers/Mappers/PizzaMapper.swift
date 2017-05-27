@@ -23,7 +23,7 @@ class PizzaMapper {
     public func fromJSON() -> Observable<[PizzaViewModel]> {
         return Observable.create { observer in
             DispatchQueue(label: "com.pizzaiolo.mapper", qos: .utility).async {
-                if let json = JSON(self.data)["pizza"].array {
+                if let json = JSON(self.data).array {
                     let realm = try! Realm()
                     
                     let viewModels = json.map { item -> PizzaViewModel in
